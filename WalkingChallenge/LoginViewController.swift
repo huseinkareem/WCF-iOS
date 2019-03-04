@@ -33,11 +33,13 @@ import FacebookCore
 
 class LoginViewController: UIViewController {
   let imgBackground: UIImageView =
-      UIImageView(image: UIImage(imageLiteralResourceName: "splash"))
+      UIImageView(image: UIImage(imageLiteralResourceName: "login-screen"))
   let btnLogin: LoginButton =
       LoginButton(readPermissions: [.publicProfile, .email, .userFriends,
                                     .custom("user_location")])
 
+  let titleLabel: UILabel = UILabel(typography: .headerTitle)
+  
   // MARK: - Lifecycle
 
   override func viewDidLoad() {
@@ -51,18 +53,30 @@ class LoginViewController: UIViewController {
     view.backgroundColor = Style.Colors.white
 
     view.addSubviews([imgBackground, btnLogin])
+    
+    titleLabel.text = "Steps4Change"
+    titleLabel.text = Strings.Dashboard.title
+    titleLabel.textColor = .black
+    titleLabel.backgroundColor = .clear
+
+    
+    titleLabel.snp.makeConstraints { (make) in
+      make.width.equalTo(150)
+      make.height.equalTo(50)
+      make.top.equalTo(100)
+    }
 
     imgBackground.snp.makeConstraints { (make) in
-      make.top.equalToSuperview()
-      make.left.equalToSuperview()
-      make.height.equalToSuperview()
-      make.width.equalToSuperview()
+      make.width.equalTo(200)
+      make.height.equalTo(200)
+      make.centerX.equalTo(view)
+      make.centerY.equalTo(view)
     }
 
     btnLogin.delegate = self
     btnLogin.snp.makeConstraints { (make) in
       make.centerX.equalToSuperview()
-      make.bottom.equalToSuperview().offset(-Style.Size.s48)
+      make.bottom.equalToSuperview().offset(-Style.Size.s96)
     }
   }
 }
