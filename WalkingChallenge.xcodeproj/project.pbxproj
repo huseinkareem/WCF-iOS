@@ -21,11 +21,12 @@
 		269E35241E767807000726C2 /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269E35231E767807000726C2 /* Team.swift */; };
 		269E35291E767AE1000726C2 /* Collection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269E35281E767AE1000726C2 /* Collection.swift */; };
 		26C5E3621E7DCAF70053DE3E /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26C5E3611E7DCAF70053DE3E /* HealthKit.framework */; };
+		50A0B669229B73840042C40B /* PedometerDeviceSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A0B668229B73840042C40B /* PedometerDeviceSelectionView.swift */; };
 		C9203B901EC41D9C00AC3C9E /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9203B8F1EC41D9C00AC3C9E /* UIImageView.swift */; };
 		ED85D460832E1D261F31B25E /* Pods_WalkingChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AA48A8026A2CF45C3F6472E /* Pods_WalkingChallenge.framework */; };
 		F004030F1EBF9DAB005E6F10 /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = F004030E1EBF9DAB005E6F10 /* JSON.swift */; };
 		F00403151EC3EC6F005E6F10 /* AKFCausesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00403141EC3EC6F005E6F10 /* AKFCausesService.swift */; };
-		F00403191EC3FB7D005E6F10 /* BuildFile in Sources */ = {isa = PBXBuildFile; };
+		F00403191EC3FB7D005E6F10 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		F004031D1EC52772005E6F10 /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = F004031C1EC52772005E6F10 /* AppConfig.swift */; };
 		F01515281EE7A6E100F56B73 /* ProgressStepsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01515271EE7A6E100F56B73 /* ProgressStepsView.swift */; };
 		F017B68E227686A60023E84B /* Welcome.swift in Sources */ = {isa = PBXBuildFile; fileRef = F017B68D227686A60023E84B /* Welcome.swift */; };
@@ -81,6 +82,7 @@
 		269E35281E767AE1000726C2 /* Collection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Collection.swift; sourceTree = "<group>"; };
 		26C5E3601E7DCACF0053DE3E /* WalkingChallenge.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WalkingChallenge.entitlements; sourceTree = "<group>"; };
 		26C5E3611E7DCAF70053DE3E /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		50A0B668229B73840042C40B /* PedometerDeviceSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PedometerDeviceSelectionView.swift; sourceTree = "<group>"; };
 		6AA48A8026A2CF45C3F6472E /* Pods_WalkingChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WalkingChallenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9203B8F1EC41D9C00AC3C9E /* UIImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
 		F004030E1EBF9DAB005E6F10 /* JSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSON.swift; sourceTree = "<group>"; };
@@ -312,6 +314,7 @@
 			isa = PBXGroup;
 			children = (
 				F02FB4A11E9188E40097481D /* HealthKitDataProvider.swift */,
+				50A0B668229B73840042C40B /* PedometerDeviceSelectionView.swift */,
 			);
 			path = Integration;
 			sourceTree = "<group>";
@@ -503,7 +506,7 @@
 				F02FB4A21E9188E40097481D /* HealthKitDataProvider.swift in Sources */,
 				F06254C11ECD5D1700168DD6 /* Participant.swift in Sources */,
 				F0F8EDCE220F865200321A6D /* Dashboard.swift in Sources */,
-				F00403191EC3FB7D005E6F10 /* BuildFile in Sources */,
+				F00403191EC3FB7D005E6F10 /* (null) in Sources */,
 				F0A992D61EABF037001621A6 /* Formatters.swift in Sources */,
 				F0CF39861EE0E903006A7462 /* Record.swift in Sources */,
 				F0F8EDD52210C71600321A6D /* ActivityCard.swift in Sources */,
@@ -512,6 +515,7 @@
 				269E34CA1E765828000726C2 /* AppDelegate.swift in Sources */,
 				269E350E1E76664F000726C2 /* Async.swift in Sources */,
 				F0DE162C221F8DD900FF17C9 /* Result.swift in Sources */,
+				50A0B669229B73840042C40B /* PedometerDeviceSelectionView.swift in Sources */,
 				F004031D1EC52772005E6F10 /* AppConfig.swift in Sources */,
 				26792DD81E91DCB400A7E5BA /* Service.swift in Sources */,
 				269E35291E767AE1000726C2 /* Collection.swift in Sources */,
